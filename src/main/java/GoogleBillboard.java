@@ -5,7 +5,7 @@ public void setup()
       String digits = e.substring(i,i+10);
       double num = Double.parseDouble(digits);
       if(isPrime(num) == true){
-        System.out.println(num);
+        System.out.println(Double.toString(num);
         break;
       }
     }
